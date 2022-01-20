@@ -1,0 +1,112 @@
+{{#if isSecondary}}
+<ul class="nav" role="menu">
+    {{#foreach navigation}}
+    <li class="nav-{{slug}}" role="menuitem">
+        <a href="{{url}}">
+            <svg class="icon" role="img" aria-label="{{slug}} icon">
+                <title>{{slug}}</title>
+                <use xlink:href="#{{slug}}"></use>
+            </svg>
+        </a>
+    </li>
+    {{/foreach}}
+</ul>
+{{else}}
+    <ul>
+        <li>
+            <a class="menu-item" href="#">About Us</a>
+            <ul>
+                <li><a class="menu-item" href="/about/">The Club</a></li>
+                <li><a class="menu-item" href="/gws-affiliation/">Affiliation with GWS GIANTS</a></li>
+                <li><a class="menu-item" href="/committee/">Committee</a></li>
+                <li><a class="menu-item" href="/newsletter/">Newsletter</a></li>
+                <li><a class="menu-item" href="/policies/">Policies</a></li>
+                <li><a class="menu-item" href="/codes-of-conduct/">Codes of Conduct</a></li>
+                <li><a class="menu-item" href="/working-with-children-check/">Working With Children Check</a></li>
+                <li><a class="menu-item" href="/history/">History</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="menu-item" href="#">Join</a>
+            <ul>
+                <li><a class="menu-item" href="/membership-and-registration/">Membership and Registration</a></li>
+                <li><a class="menu-item" href="/auskick/">Auskick</a></li>
+                <li><a class="menu-item" href="/parents-support-and-volunteers/">Parents and Volunteers</a></li>
+                <li><a class="menu-item" href="/safety/">Player Safety</a></li>
+                <li><a class="menu-item" href="/coaching/">Coaching</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="menu-item" href="#">Teams</a>
+            <ul>
+                <li>
+                    <a class="menu-item" href="/2018-teams/">2018 Teams</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2018-under-9/">2018 Under 9 Boys</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-item" href="/2017-teams/">2017 Teams</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2017-under-10/">2017 Under 10</a></li>
+                        <li><a class="menu-item" href="/2017-under-12/">2017 Under 12</a></li>
+                        <li><a class="menu-item" href="/2017-under-15/">2017 Under 15</a></li>
+                        <li><a class="menu-item" href="/2017-colts/">2017 Colts</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-item" href="/2016-teams/">2016 Teams</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2016-under-10-red/">2016 Under 10</a></li>
+                        <li><a class="menu-item" href="/2016-under-11-black/">2016 Under 11</a></li>
+                        <li><a class="menu-item" href="/2016-under-14-black/">2016 Under 14</a></li>
+                        <li><a class="menu-item" href="/2016-colts/">2016 Colts</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu-item" href="/training-methodology/">Training Methodology</a></li>
+                <li><a class="menu-item" href="/awards/">Awards</a></li>
+                <li><a class="menu-item" href="/premierships/">Premierships</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="menu-item" class="menu-item" href="#">Sponsors</a>
+            <ul>
+                <li><a class="menu-item" href="/sponsors/">Current Sponsors</a></li>
+                <li><a class="menu-item" href="/become-a-sponsor/">Sponsor Us</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="menu-item" class="menu-item" href="#">Gallery</a>
+            <ul>
+                <li>
+                    <a class="menu-item" href="/2016-gallery/">2016</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2016-under-10-red-gallery/">2016 Under 10 Gallery</a></li>
+                        <li><a class="menu-item" href="/2016-under-11-black-gallery/">2016 Under 11 Gallery</a></li>
+                        <li><a class="menu-item" href="/2016-under-14-black-gallery/">2016 Under 14 Gallery</a></li>
+                        <li><a class="menu-item" href="/2016-colts-gallery/">2016 Colts Gallery</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-item" href="/2017-gallery/">2017</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2017-auskick-gallery/">2017 Auskick Gallery</a></li>
+                        <li><a class="menu-item" href="/2017-under-10-gallery/">2017 Under 10 Gallery</a></li>
+                        <li><a class="menu-item" href="/2017-under-12-gallery/">2017 Under 12 Gallery</a></li>
+                        <li><a class="menu-item" href="/2017-under-15-gallery/">2017 Under 15 Gallery</a></li>
+                        <li><a class="menu-item" href="/2017-colts-gallery/">2017 Colts Gallery</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="menu-item" href="/2018-gallery/">2018</a>
+                    <ul>
+                        <li><a class="menu-item" href="/2018-under-9-gallery/">2018 Under 9 Gallery</a></li>
+                        <li><a class="menu-item" href="/2018-under-13-gallery/">2018 Under 13 Gallery</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a class="menu-item" href="/merchandise/">Merch</a></li>
+        <li><a class="menu-item" href="/contact/">Contact</a></li>
+    </ul>
+{{/if}}
