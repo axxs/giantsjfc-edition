@@ -33,4 +33,4 @@ yarn zip
 
 # Copyright & License
 
-Edition code is Copyright (c) 2013-2022 Ghost Foundation and Released under the [MIT license](LICENSE).
+Released under the [MIT license](LICENSE).
