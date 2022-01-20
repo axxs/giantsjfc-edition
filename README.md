@@ -2,7 +2,7 @@
 
 Go check out the [Giants Junior Football Club](http://giantsjfc.com.au) 
 
-Based off the Edition theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Giants JFC theme! If you're just looking to download the latest release, download the theme [here](https://github.com/axxs/giantsjfc-edition/archive/refs/heads/main.zip).
+Based off the Edition theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Giants JFC theme! If you're just looking to download the latest release, download the theme [here](https://github.com/axxs/giantsjfc-edition/archive/refs/heads/master.zip).
 
 &nbsp;
 
