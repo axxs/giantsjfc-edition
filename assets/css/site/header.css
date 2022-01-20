@@ -39,6 +39,11 @@
     padding-left: 5px;
 }
 
+.head-logo {
+    display: flex;
+    justify-content: center;
+}
+
 .with-full-cover .logo-text,
 .with-alt-header .logo-text {
     color: #fff;
